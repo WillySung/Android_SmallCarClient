@@ -43,7 +43,7 @@ public class GetIP extends Activity {
 
         //btname = "98:D3:31:40:0F:06";
         //ipname = "192.168.1.44";
-        String resolution_str = "10";
+        String resolution_str = "25";
 
         iptext.setText(ipname);
         bttext.setText(btname);

@@ -10,7 +10,7 @@
             android:layout_height="match_parent"
             android:rotation="90"
             android:id="@+id/imageView"
-            android:src="@drawable/normal3"
+            android:src="@drawable/happy"
             />
 
         <SurfaceView

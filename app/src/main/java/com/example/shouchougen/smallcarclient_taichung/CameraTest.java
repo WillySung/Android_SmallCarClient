@@ -123,49 +123,56 @@ public class CameraTest extends Activity {
                     if(message.trim().equals("A")){
                         runOnUiThread(new Runnable() {
                             public void run() {
-                                iconView.setImageResource(R.drawable.normal3);
+                                iconView.setImageResource(R.drawable.pee);
                             }
                         });
                     }
                     else if(message.trim().equals("B")){
                         runOnUiThread(new Runnable() {
                             public void run() {
-                                iconView.setImageResource(R.drawable.blink3);
+                                iconView.setImageResource(R.drawable.tv);
                             }
                         });
                     }
                     else if(message.trim().equals("C")){
                         runOnUiThread(new Runnable() {
                             public void run() {
-                                iconView.setImageResource(R.drawable.angry3);
+                                iconView.setImageResource(R.drawable.hi);
                             }
                         });
                     }
                     else if(message.trim().equals("D")){
                         runOnUiThread(new Runnable() {
                             public void run() {
-                                iconView.setImageResource(R.drawable.blank3);
+                                iconView.setImageResource(R.drawable.rest);
                             }
                         });
                     }
                     else if(message.trim().equals("E")){
                         runOnUiThread(new Runnable() {
                             public void run() {
-                                iconView.setImageResource(R.drawable.cry3);
+                                iconView.setImageResource(R.drawable.happy);
                             }
                         });
                     }
                     else if(message.trim().equals("F")){
                         runOnUiThread(new Runnable() {
                             public void run() {
-                                iconView.setImageResource(R.drawable.shy3);
+                                iconView.setImageResource(R.drawable.angry);
                             }
                         });
                     }
                     else if(message.trim().equals("G")){
                         runOnUiThread(new Runnable() {
                             public void run() {
-                                iconView.setImageResource(R.drawable.sleep3);
+                                iconView.setImageResource(R.drawable.help);
+                            }
+                        });
+                    }
+                    else if(message.trim().equals("H")){
+                        runOnUiThread(new Runnable() {
+                            public void run() {
+                                iconView.setImageResource(R.drawable.sad);
                             }
                         });
                     }
